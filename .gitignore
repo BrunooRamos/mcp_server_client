@@ -1,10 +1,29 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno
 .env
+.env.local
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
 node_modules
 .next
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-
-
-venv
